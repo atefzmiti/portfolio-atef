@@ -1,0 +1,1371 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 2%;
+	margin: 0;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 40px;
+
+	text-align: center;
+	text-decoration: none;
+
+}
+
+.fa:hover {
+	opacity: 0.5;
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	background: #ffffff;
+	color: rgb(18, 51, 238);
+	border-radius: 70%;
+	height: 32px;
+	width: 32px;
+
+}
+
+
+.fa-linkedin {
+	background: #ffffff;
+	color: rgb(18, 51, 238);
+	border-radius: 70%;
+
+
+}
+
+.fa-github {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	position: relative;
+padding: 0px;
+margin: 0px;
+margin-left: -27px;
+margin-right: -27px;
+height: 100px;
+
+
+}
+#main-nav.sticky {
+	top: 0;
+  }
+  .navbarOffsetMargin {
+	padding-top: 45px;
+  }
+
+nav .profile {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+
+nav .profile img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+nav ul li {
+	padding-left: 0px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+
+nav ul li:hover {
+	border-bottom-color: #000;
+}
+
+.page-content {
+	margin: 4%;
+}
+
+.page-content header {
+	margin-top: 5%;
+	max-width: 80%;
+
+}
+
+.page-content header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vw;
+	margin-left: 60px;
+}
+
+.page-content header p {
+	line-height: 30px;
+	color: #818181;
+}
+
+
+
+.page-content header button:hover {
+	color: #ccc;
+	border-bottom-color: #000;
+}
+
+.page-content .presentation-image {
+	margin-top: 5%;
+
+}
+
+.page-content .presentation-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+.page-content .projects-section {
+	margin-top: 6%;
+}
+
+.page-content .projects-section h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3vw;
+}
+
+.page-content .projects-section .projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.page-content .projects-section .project {
+	margin-right: 20px;
+	max-width: 195px;
+}
+
+.page-content .projects-section .project h4 {
+	margin: 0;
+}
+
+.page-content .projects-section .project .description {
+	font-size: 10px;
+}
+
+.page-content .projects-section .project .dates {
+	font-size: 13px;
+	color: rgb(145, 145, 145);
+}
+
+footer {
+	margin-top: 5%;
+	bottom: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+}
+
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+footer .colonne p:hover {
+	color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+	nav {
+		justify-content: center;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	.page-content header {
+		margin-top: 10%;
+		max-width: 100%;
+	}
+
+	.page-content .projects-section {
+		margin-top: 15%;
+	}
+
+	.page-content .projects-section h1 {
+		font-size: 1.5em;
+	}
+
+	.page-content .projects-section .project {
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+
+	.page-content .projects-section .project .description {
+		font-size: 13px;
+	}
+
+	footer {
+		justify-content: flex-start;
+	}
+
+	footer .column {
+		width: 80%;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+#culture-icon-svg {
+	margin: 50px auto;
+	display: block;
+}
+
+#culture-icon-svg .dial {
+	clip-rule: evenodd;
+	fill-rule: evenodd;
+	fill: #e93232;
+
+
+}
+
+#culture-icon-svg .housing {
+	clip-rule: evenodd;
+	fill-rule: evenodd;
+	fill: #F8F8F8;
+}
+
+#culture-icon-svg .needle-base-outer,
+#culture-icon-svg .needle-base-inner,
+#culture-icon-svg .declination-mark {
+	clip-rule: evenodd;
+	fill-rule: evenodd;
+	fill: #BABABA;
+}
+
+#culture-icon-svg .needle-screw {
+	clip-rule: evenodd;
+	fill-rule: evenodd;
+	fill: #424649;
+}
+
+#culture-icon-svg .needle-south {
+	clip-rule: evenodd;
+	fill-rule: evenodd;
+	fill: #e95419;
+
+}
+
+#culture-icon-svg .needle-north {
+	clip-rule: evenodd;
+	fill-rule: evenodd;
+	fill: #F15E29;
+}
+
+#culture-icon-svg .group-needle {
+	-webkit-transform: translate(80px, 80px);
+	-moz-transform: translate(80px, 80px);
+	transform: translate(80px, 80px);
+}
+
+#culture-icon-svg .group-needle-animation>* {
+	-webkit-transform: translate(-80px, -80px);
+	-moz-transform: translate(-80px, -80px);
+	transform: translate(-80px, -80px);
+
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+#culture-icon-svg:hover .group-needle-animation {
+	-webkit-animation: compass-needle-spin 8s 0s ease infinite;
+	-moz-animation: compass-needle-spin 8s 0s ease infinite;
+	animation: compass-needle-spin 8s 0s ease infinite;
+}
+
+@-webkit-keyframes compass-needle-spin {
+	0% {
+		-webkit-transform: rotate(0);
+	}
+
+	10% {
+		-webkit-transform: rotate(720deg);
+	}
+
+	35% {
+		-webkit-transform: rotate(30deg);
+	}
+
+	47% {
+		-webkit-transform: rotate(55deg);
+	}
+
+	55% {
+		-webkit-transform: rotate(40deg);
+	}
+
+	63% {
+		-webkit-transform: rotate(50deg);
+	}
+
+	71% {
+		-webkit-transform: rotate(42deg);
+	}
+
+	78% {
+		-webkit-transform: rotate(47deg);
+	}
+
+	82% {
+		-webkit-transform: rotate(45deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(45deg);
+	}
+}
+
+@-moz-keyframes compass-needle-spin {
+	0% {
+		-moz-transform: rotate(0);
+	}
+
+	10% {
+		-moz-transform: rotate(720deg);
+	}
+
+	35% {
+		-moz-transform: rotate(30deg);
+	}
+
+	47% {
+		-moz-transform: rotate(55deg);
+	}
+
+	55% {
+		-moz-transform: rotate(40deg);
+	}
+
+	63% {
+		-moz-transform: rotate(50deg);
+	}
+
+	71% {
+		-moz-transform: rotate(42deg);
+	}
+
+	78% {
+		-moz-transform: rotate(47deg);
+	}
+
+	82% {
+		-moz-transform: rotate(45deg);
+	}
+
+	100% {
+		-moz-transform: rotate(45deg);
+	}
+}
+
+@keyframes compass-needle-spin {
+	0% {
+		transform: rotate(0);
+	}
+
+	10% {
+		transform: rotate(720deg);
+	}
+
+	35% {
+		transform: rotate(30deg);
+	}
+
+	47% {
+		transform: rotate(55deg);
+	}
+
+	55% {
+		transform: rotate(40deg);
+	}
+
+	63% {
+		transform: rotate(50deg);
+	}
+
+	71% {
+		transform: rotate(42deg);
+	}
+
+	78% {
+		transform: rotate(47deg);
+	}
+
+	82% {
+		transform: rotate(45deg);
+	}
+
+	100% {
+		transform: rotate(45deg);
+	}
+}
+
+
+
+
+
+
+.clock {
+	position: relative;
+	transform: scale(2);
+	border-radius: 50%;
+	border: 2px solid rgb(29, 113, 238);
+	width: 50px;
+	height: 50px;
+	left: 2cm;
+	border-width: 0.4em;
+	position: relative;
+	top: 3.5cm;
+	margin-top: 2cm;
+}
+#animation {
+	position: relative;
+	top: 1.2cm;
+	margin-top: 0.6cm;
+	left: -500px;
+}
+
+
+.clock:after {
+	position: absolute;
+	width: 0px;
+	height: 20px;
+	display: block;
+	border-left: 2px solid rgb(29, 113, 238);
+	content: '';
+	left: 19px;
+	top: 1px;
+	animation-duration: 1s;
+}
+
+.clock:before {
+	position: absolute;
+	width: 0px;
+	height: 20px;
+	display: block;
+	border-left: 2px solid rgb(29, 113, 238);
+	content: '';
+	left: 18px;
+	top: 1px;
+	animation-duration: 60s;
+}
+
+.clock:before,
+.clock:after {
+	transform-origin: bottom;
+	animation-name: dial;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes dial {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.po {
+
+	font-size: 30px;
+	padding-left: 1.3cm;
+
+}
+
+.big {
+	padding-top: 0cm;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+} 
+.sidenav {
+	height: 170%;
+	width: 0;
+	float: left;
+	position: sticky;
+	z-index: 1;
+	top: 99px;
+	left: 0;
+	margin:0;
+    padding:0;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	border-right: 2px solid rgba(0, 0, 0, 0.137);
+
+}
+
+
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+	display: block;
+	transition: 0.3s;
+
+}
+
+
+
+.sidenav a:hover {
+	color: #0d4e00;
+}
+
+.colonne :hover a {
+	color: #000103;
+	font-size: 22px;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+
+#education {
+
+	text-align: center;
+}
+
+#table {
+	display: none;
+}
+
+.con {
+	margin-left: 2em;
+	margin-top: 100px;
+}
+
+
+
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px;
+	/* the bottom margin is the negative value of the footer's height */
+}
+
+.footer,
+.push {
+	height: 142px;
+	/* .push must be the same height as .footer */
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+	padding-top: 60px;
+  }
+
+ ul li a i{text-decoration:none}
+
+  
+ button {
+	width: 100%;
+	height: 8%;
+	padding: 0;
+	border: none;
+	background: none;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.buttons {
+	text-align: center;
+}
+
+#we:active {
+	font-size: larger;
+}
+.bt {
+	margin-right: 4px;
+	border-radius: 20px;
+   }
+
+
+   .img1 { /* the magic */
+	display: block;
+	float:left;
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	-webkit-border-radius: 180px;
+	-moz-border-radius: 180px;
+	-ms-border-radius: 180px;
+	-o-border-radius: 180px;
+	border-radius: 180px;
+	/* the rest */
+	position: relative; /* for the overlay later */
+		margin: 50px ;
+		text-align: center;
+		margin-bottom: 20px;
+		border: 3px solid rgb(199, 103, 255);
+		-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3),inset 0px 3px 8px rgba(0,0,0,0.3);
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+	
+ }
+   
+		
+	.img1 .right { max-width: 50%;
+		height: auto;
+		vertical-align: middle;
+		border: 0;
+		/* make resized images look good in IE */
+		-ms-interpolation-mode: bicubic;
+	}
+
+	
+	
+	  
+	  table { border-collapse:collapse ;
+}
+
+.ht {
+	margin-left: 3cm;
+	margin-top: 10cm;
+  }
+
+  div.raspberry {
+    float: left;
+}
+
+div p {
+    text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+fieldset{
+    padding: 30px;
+	
+
+}
+
+.field_set {
+--fieldset-border-width: 3px;
+border-style: solid;
+border-color: #0085dd;
+}
+
+legend {
+	left: 20px;
+}
+
+
+#c1 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 450;
+	stroke-dashoffset: 300;
+	animation: anim 1s linear forwards;
+}
+
+@keyframes anim {
+	100% {
+		stroke-dashoffset: 100;
+	}
+}
+
+
+#svg1 {
+	position: absolute;
+	top: 85px;
+	left: 338px;
+}
+#c2 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 450;
+	stroke-dashoffset: 300;
+	animation: anim 1s linear forwards;
+}
+
+@keyframes anim {
+	100% {
+		stroke-dashoffset: 70;
+	}
+}
+
+
+#svg2 {
+	position: absolute;
+	top: 85px;
+	left: 156px;
+}
+
+
+#c3 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 450;
+	stroke-dashoffset: 300;
+	animation: anim 1s linear forwards;
+}
+
+@keyframes anim {
+	100% {
+		stroke-dashoffset: 70;
+	}
+}
+
+#svg3 {
+	position: absolute;
+	top: 85px;
+	left: 520px;
+}
+
+#c4 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 450;
+	stroke-dashoffset: 300;
+	animation: anim 1s linear forwards;
+}
+
+@keyframes anim {
+	100% {
+		stroke-dashoffset: 70;
+	}
+}
+
+#svg4 {
+	position: absolute;
+	top: 85px;
+	left: 702px;
+}
+
+#c5 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 450;
+	stroke-dashoffset: 300;
+	animation: anim2 1s linear forwards;
+}
+
+@keyframes anim2 {
+	100% {
+		stroke-dashoffset: 150;
+	}
+}
+
+#svg5 {
+	position: absolute;
+	top: 331px;
+	left: 156px;
+}
+
+#c6 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim50 1s linear forwards;
+}
+
+@keyframes anim50 {
+	100% {
+		stroke-dashoffset: 250;
+	}
+}
+
+#svg6 {
+	position: absolute;
+	top: 331px;
+	left: 338px;
+}
+
+#c7 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim7 1s linear forwards;
+}
+
+@keyframes anim7 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg7 {
+	position: absolute;
+	top: 331px;
+	left: 520px;
+}
+
+#c8 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim8 1s linear forwards;
+}
+
+@keyframes anim8 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg8 {
+	position: absolute;
+	top: 331px;
+	left: 702px;
+}
+
+#c9 {
+	fill: none;
+	stroke: blue;
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim9 1s linear forwards;
+}
+
+@keyframes anim9 {
+	100% {
+		stroke-dashoffset: 290;
+	}
+}
+
+#svg9 {
+	position: absolute;
+	top: 577px;
+	left: 156px;
+}
+
+#c11 {
+	fill: none;
+	stroke: rgb(49, 0, 128);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim20 1s linear forwards;
+}
+
+@keyframes anim20 {
+	100% {
+		stroke-dashoffset: 300;
+	}
+}
+
+#svg11 {
+	position: absolute;
+	top: 240;
+	left: 345;
+}
+#c12 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim11 1s linear forwards;
+}
+
+@keyframes anim11 {
+	100% {
+		stroke-dashoffset: 250;
+	}
+}
+
+#svg12 {
+	position: absolute;
+	top: 240;
+	left: 527;
+}
+
+#c13 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim11 1s linear forwards;
+}
+
+@keyframes anim11 {
+	100% {
+		stroke-dashoffset: 250;
+	}
+}
+
+#svg13 {
+	position: absolute;
+	top: 240;
+	left: 709;
+}
+
+#c14 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim14 1s linear forwards;
+}
+
+@keyframes anim14 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg14 {
+	position: absolute;
+	top: 192;
+	left: 496;
+}
+
+#c15{
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim14 1s linear forwards;
+}
+
+@keyframes anim14 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg15 {
+	position: absolute;
+	top: 240;
+	left: 421;
+}
+
+#c16 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim14 1s linear forwards;
+}
+
+@keyframes anim14 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg16 {
+	position: absolute;
+	top: 240;
+	left: 603;
+}
+#c17 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim17 1s linear forwards;
+}
+
+@keyframes anim17 {
+	100% {
+		stroke-dashoffset: 250;
+	}
+}
+
+#svg17 {
+	position: absolute;
+	top: 157px;
+	left: 79px;
+}
+#c18 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim18 1s linear forwards;
+}
+
+@keyframes anim18 {
+	100% {
+		stroke-dashoffset: 280;
+	}
+}
+
+#svg18 {
+	position: absolute;
+	top: 157px;
+	left: 262px;
+}
+#c19 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim19 1s linear forwards;
+}
+
+@keyframes anim19 {
+	100% {
+		stroke-dashoffset: 260;
+	}
+}
+
+#svg19 {
+	position: absolute;
+	top: 157px;
+	left: 444px;
+}
+
+#c20 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim30 1s linear forwards;
+}
+
+@keyframes anim30 {
+	100% {
+		stroke-dashoffset: 300;
+	}
+}
+
+#svg20 {
+	position: absolute;
+	top: 158px;
+	left: 468px;
+}
+
+#c21 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim14 1s linear forwards;
+}
+
+@keyframes anim14 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg21 {
+	position: absolute;
+	top: 240;
+	left: 496;
+}
+
+#c22 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim22 1s linear forwards;
+}
+
+@keyframes anim22 {
+	100% {
+		stroke-dashoffset: 300;
+	}
+}
+
+#svg22 {
+	position: absolute;
+	top: 240;
+	left: 678;
+}
+
+
+#c23 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim22 1s linear forwards;
+}
+
+@keyframes anim22 {
+	100% {
+		stroke-dashoffset: 300;
+	}
+}
+
+#svg23 {
+	position: absolute;
+	top: 207px;
+	left: 204px;
+}
+
+
+#c24{
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim24 1s linear forwards;
+}
+
+@keyframes anim24 {
+	100% {
+		stroke-dashoffset: 300;
+	}
+}
+
+#svg24 {
+	position: absolute;
+	top: 207px;
+	left: 434px;
+}
+
+#c25 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim40 1s linear forwards;
+}
+
+@keyframes anim40 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg25 {
+	position: absolute;
+	top: 207px;
+	left: 664px;
+}
+
+#c26 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim26 1s linear forwards;
+}
+
+@keyframes anim26 {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+#svg26 {
+	position: absolute;
+	top: 230;
+	left: 384;
+}
+
+#c27 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim27 1s linear forwards;
+}
+
+@keyframes anim27 {
+	100% {
+		stroke-dashoffset: 250;
+	}
+}
+
+#svg27 {
+	position: absolute;
+	top: 230;
+	left: 593;
+}
+#c28 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim28 1s linear forwards;
+}
+
+@keyframes anim28 {
+	100% {
+		stroke-dashoffset: 150;
+	}
+}
+
+#svg28 {
+	position: absolute;
+	top: 230;
+	left: 803;
+}
+
+#c29 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim25 1s linear forwards;
+}
+
+@keyframes anim25 {
+	100% {
+		stroke-dashoffset: 300;
+	}
+}
+
+#svg29 {
+	position: absolute;
+	top: 157px;
+	left: 625px;
+}
+
+#c32 {
+	fill: none;
+	stroke: rgb(128, 0, 117);
+	stroke-width: 5%;
+	stroke-dasharray: 600;
+	stroke-dashoffset: 600;
+	animation: anim32 1s linear forwards;
+}
+
+@keyframes anim32 {
+	100% {
+		stroke-dashoffset: 300;
+	}
+}
+
+#svg32 {
+	position: absolute;
+	top: 157px;
+	left: 808px;
+}
+#animatefield {
+	position: relative;
+}
+#animatefield2 {
+	position: relative;
+}
+
+#animatefield3 {
+	position: relative;
+}
+
+#animatefield4 {
+	position: relative;
+}
+
+#animatefield5 {
+	position: relative;
+}
+
+#animatefield6 {
+	position: relative;
+}
+
+
+
+  #photo:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
+	height: 60px ;
+	width:60px;
+  }
+ 
+
