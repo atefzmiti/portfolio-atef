@@ -1,7 +1,6 @@
 {
   "name": "portfoliozmitiateff",
   "version": "0.0.0",
-  "homepage": "https://portfolio-67ebf.web.app/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
